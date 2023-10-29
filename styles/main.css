@@ -16,3 +16,7 @@ body {
   align-items: center;
   background: #A9823E;
 }
+.header__nav .active  {
+  background: #222;
+  color: #fff;
+}
