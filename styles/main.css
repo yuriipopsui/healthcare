@@ -1,6 +1,7 @@
 @import 'reset.css';
 
 html {
+  width: 1024px;
   margin: 0 auto;
   background: white;
   display: flex;
@@ -10,6 +11,7 @@ html {
 }
 body {
   width: 1024px;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;

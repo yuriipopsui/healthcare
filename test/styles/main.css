@@ -1,0 +1,20 @@
+@import 'reset.css';
+
+html {
+  width: 1024px;
+  margin: 0 auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  width: 1024px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #A9823E;
+}
