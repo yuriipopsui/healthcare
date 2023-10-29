@@ -1,0 +1,169 @@
+
+.landing {
+  background: #000;
+  height: 763px;
+}
+
+.landing__image {
+}
+.landing__image-transition {
+  position: absolute;
+  bottom: 112px;
+  left: 0;
+}
+
+.about {
+  background: #090201;
+  width: 1024px;
+  height: 500px;
+  position: relative;
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: url("../assets/lifestyle.png");
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about__text-wrapper {
+  width: 500px;
+  font-size: 38px;
+  font-family: "Roboto Condensed";
+  color: #fff;
+  position: relative;
+  top: 100px;
+  left: 75px;
+}
+
+.about__image-transition {
+  position: absolute;
+  bottom: -150px;
+  z-index: 5;
+}
+
+.about__title {
+}
+.about__text {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.healthcare {
+  background: #a9823e;
+  width: 1024px;
+  height: 500px;
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.healthcare::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  /* background: url("../assets/lifestyle.png"); */
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.healthcare__image-transition {
+  position: absolute;
+  bottom: -175px;
+  left: 0;
+  z-index: 10;
+}
+
+.healthcare__title {
+  width: 750px;
+  color: #fff;
+  font-size: 40px;
+  font-family: "Roboto Condensed";
+  margin-left: 150px;
+  text-align: right;
+}
+.healthcare__text {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.healthcare__card-wrapper {
+  width: 900px;
+  margin: 50px 0 0 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card__title {
+  font-family: "Roboto Condensed";
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.pros {
+  width: 100%;
+  min-height: 700px;
+  padding-bottom: 100px;
+  background: #090201;
+  position: relative;
+}
+
+.pros__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.pros__title {
+  font-size: 60px;
+  font-family: "Roboto Condensed";
+  color: #fff;
+
+  margin-top: 200px;
+  text-align: center;
+}
+
+.pros__text {
+  font-size: 20px;
+  font-family: "Roboto Condensed";
+  color: #fff;
+  position: absolute;
+}
+
+.t1 {
+  bottom: 482px;
+  left: 190px;
+}
+.t2 {
+  bottom: 415px;
+  left: 622px;
+}
+.t3 {
+  bottom: 352px;
+  left: 204px;
+}
+.t4 {
+  bottom: 286px;
+  left: 622px;
+}
+.t5 {
+  bottom: 222px;
+  left: 216px;
+}
