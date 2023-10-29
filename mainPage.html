@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed%3A500%2C700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A500%2C600%2C700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cormorant+SC%3A600"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/foodPage.css" />
+    <link rel="stylesheet" href="./styles/mainPage.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img
+          class="header__logo_img"
+          src="./assets/icon-yoga.png"
+          alt="yoga icon"
+        />
+        <p class="header__logo_text">healthy lifestyle</p>
+      </div>
+      <nav class="header__nav">
+        <a href="./mainPage.html" class="header__nav_link active">головна</a>
+        <a href="#" class="header__nav_link">звички</a>
+        <a href="./foodPage.html" class="header__nav_link">їжа</a>
+        <a href="#" class="header__nav_link">спорт</a>
+      </nav>
+    </header>
+
+    <section class="landing">
+      <img src="./assets/landing_bg.png" class="landing__image" alt="bg" />
+      <img
+        src="./assets/Vector 255.png"
+        class="landing__image-transition"
+        alt="bg"
+      />
+    </section>
+
+    <section class="about">
+      <div class="about__text-wrapper">
+        <h3 class="about__title">Здоровий Спосіб Життя -</h3>
+        <p class="about__text">
+          це концепція життєдіяльності людини, спрямована на поліпшення і
+          збереження здоров'я за допомогою відповідного харчування, фізичної
+          підготовки, морального настрою, і, безумовно, відмови від шкідливих
+          звичок.
+        </p>
+      </div>
+      <img
+        src="./assets/Vector 256.png"
+        class="about__image-transition"
+        alt="bg"
+      />
+    </section>
+
+    <section class="healthcare">
+      <!-- <div class="healthcare__text-wrapper"> -->
+      <h3 class="healthcare__title">
+        Щоб мати здоровий спосіб життя потрібно слідкувати за кількома галузями
+        життя
+      </h3>
+      <div class="healthcare__card-wrapper">
+        <div class="card">
+          <img class="card__img" src="./assets/healthcare_time.png" alt="healthcare" />
+          <h3 class="card__title">Корисні звички</h3>
+        </div>
+        <div class="card">
+          <img class="card__img" src="./assets/healthcare_sport.png" alt="healthcare" />
+          <h3 class="card__title">Заняття спортом</h3>
+        </div>
+        <div class="card">
+          <img class="card__img" src="./assets/healthcare_fruits.png" alt="healthcare" />
+          <h3 class="card__title">Збалансоване харчування</h3>
+        </div>
+      </div>
+
+      <img
+        src="./assets/Vector 257.png"
+        class="healthcare__image-transition"
+        alt="bg"
+      />
+    </section>
+
+    <section class="pros">
+      <h2 class="pros__title">Переваги здорового способу життя</h2>
+      <div class="pros__text-wrapper">
+        <p class="pros__text t1">Довша тривалість життя</p>
+        <p class="pros__text t2">Посилення імунітету</p>
+        <p class="pros__text t3">Більший рівень енергії</p>
+        <p class="pros__text t4">Краще психічне здоров’я</p>
+        <p class="pros__text t5">Гарна фізична форма</p>
+      </div>
+      <img src="./assets/full scheme.png" class="pros__img" alt="scheme">
+    </section>
+  </body>
 </html>
