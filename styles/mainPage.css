@@ -2,13 +2,12 @@
 .landing {
   background: #000;
   height: 763px;
+  position: relative;
 }
 
-.landing__image {
-}
 .landing__image-transition {
   position: absolute;
-  bottom: 112px;
+  bottom: 0;
   left: 0;
 }
 
